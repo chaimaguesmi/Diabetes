@@ -1,0 +1,24 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> DIABETIC DETECTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Pregnancies :  <input type="text", name='Pregnancies', placeholder="enter 1"> <br><br>
+            Glucose :  <input type="text", name='Glucose', placeholder="enter 2"> <br><br>
+            BloodPressure :  <input type="text", name='BloodPressure', placeholder="enter 3"> <br><br>
+            SkinThickness : <input type="text", name='SkinThickness', placeholder="enter 4"> <br><br><br></b>
+            Insulin :  <input type="text", name='Insulin', placeholder="enter 5"> <br><br>
+            BMI :  <input type="text", name='BMI', placeholder="enter 6"> <br><br>
+            DiabetesPedigreeFunction:  <input type="text", name='DiabetesPedigreeFunction', placeholder="enter 7"> <br><br>
+            Age : <input type="text", name='Age', placeholder="enter 8"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        
+    </center>
+
+    </body>
+</html>
